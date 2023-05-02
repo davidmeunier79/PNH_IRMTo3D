@@ -16,7 +16,7 @@ from nipype.interfaces.niftyreg.reg import RegAladin
 
 from macapype.utils.utils_nodes import NodeParams
 
-from .nodes.surface import keep_gcc, wrap_nii2mesh, pad_zero_mri
+from nodes.skull import keep_gcc, wrap_nii2mesh, pad_zero_mri
 
 from macapype.utils.misc import parse_key
 

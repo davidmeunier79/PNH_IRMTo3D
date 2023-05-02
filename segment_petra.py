@@ -62,7 +62,7 @@ from macapype.pipelines.full_pipelines import (
     create_transfo_FLAIR_pipe,
     create_transfo_MD_pipe)
 
-from .pipelines.skull import create_skull_petra_pipe
+from pipelines.skull import create_skull_petra_pipe
 
 from macapype.utils.utils_bids import (create_datasource,
                                        create_datasource_indiv_params,
